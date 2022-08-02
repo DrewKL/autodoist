@@ -1,5 +1,7 @@
 # Autodoist
 
+Fork of Autodoist by https://github.com/Hoffelhas
+
 This program adds four major functionalities to Todoist to help automate your workflow:
 
 1) Assign automatic next-action labels for a more GTD-like workflow
@@ -9,15 +11,9 @@ This program adds four major functionalities to Todoist to help automate your wo
 3) Postpone the end-of-day time to after midnight to finish your daily recurring tasks
 4) Make multiple items (un)checkable at the same time
 
-If this tool helped you out, I would really appreciate your support by providing me with some coffee!
-
-<a href=https://ko-fi.com/hoffelhas>
- <img src="https://i.imgur.com/MU1rAPG.png" width="150">
-</a>
-
 # Requirements
 
-Autodoist has been build with Python 3.9.1, which is the recommended version. Older versions of 3.x should be compatible, however be aware that they have not been tested.
+Autodoist has been built with Python 3.9.1, which is the recommended version. Older versions of 3.x should be compatible, however be aware that they have not been tested.
 
 To run Autodoist the following packages are required:
 * ```todoist-python```
