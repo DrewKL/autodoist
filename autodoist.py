@@ -511,7 +511,7 @@ def run_recurring_lists_logic(args, api, item, child_items, child_items_all, reg
                                     today - old_date).days
 
                                 # Only apply if overdue and if it's a daily recurring tasks
-                                if days_overdue >= 1 and days_difference == 1:
+                                if (days_overdue * -1) >= 1 and days_difference == 1:
 
                                     # Find curreny date in string format
                                     today_str = [str(x) for x in [
